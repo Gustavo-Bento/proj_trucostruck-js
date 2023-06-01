@@ -5,12 +5,14 @@ function About() {
         <div className="w3-container w3-row" id="about">
             <h5 className="w3-center w3-padding-32"><span className="w3-wide">SOBRE TRUCOS TRUCK</span></h5>
             <div className="w3-container w3 w3-half" style={{ maxWidth: '700px' }}>
-                <p>The Cafe was founded in blabla by Mr. Smith in lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                <p>In addition to our full espresso and brew bar menu, we serve fresh made-to-order breakfast and lunch sandwiches, as well as a selection of sides and salads and other good stuff.</p>
+                <p>Nossa frota de caminhões, habilmente equipada com tecnologia avançada, é como um ás na manga. Isso nos permite garantir que sua carga seja entregue com segurança e pontualidade, não importa o quão desafiador seja o trajeto.</p>
+                <p>Nossa reputação é nossa melhor carta na manga. Assim como no truco, honramos nossa palavra e entregamos sua carga com integridade e transparência, mantendo a confiança de nossos clientes em cada jogada.</p>
                 <div className="w3-panel w3-leftbar w3-light-grey">
-                    <p><i>"Use products from nature for what it's worth - but never too early, nor too late." Fresh is the new sweet.</i></p>
-                    <p>Chef, Coffeeist and Owner: Liam Brown</p>
+                    <p><i>"Seja você um jogador novato ou um veterano no jogo do transporte internacional, a TrucosTruck Enterprises está pronta para ser sua parceira estratégica. Nossos serviços logísticos personalizados e nossa dedicação incansável garantem que você vença a partida em seu mercado.</i></p>
+                    <p>Gustavo Ferreira</p>
                 </div>
+                <p>Faça parte do time vencedor! Entre em contato conosco hoje mesmo e descubra por que somos a escolha número um para o transporte internacional. TrucosTruck Enterprises - sua melhor aposta no mundo do transporte! Trucando desde 2023.</p>
+                
             </div>
             <div className='w3-content w3-half'>
                 <img src={Img} style={{ width: '100%', maxWidth: '1000px' }} className="w3-margin-top" />
