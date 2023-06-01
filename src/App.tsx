@@ -1,21 +1,26 @@
-import * as React from 'react';
-import { Player } from 'video-react';
-import "node_modules/video-react/dist/video-react.css"; 
-@import "~video-react/styles/scss/video-react";
-import Toolbar from './components/Toolbar/index.tsx';
-import './style.css';
+import { useState } from 'react'
+import {
+  Routes,
+  Route
+} from "react-router-dom";
+import Toolbar from './components/Toolbar'
+import Footer from './components/Footer/index'
+import Index from './components/Index/index'
 
-export default function App() {
+function App() {
+  const [count, setCount] = useState(0)
+
   return (
-    <div className="container top">
+    <div>
+      <div className="w3-content" style={{ maxWidth: '2000px', marginTop: '46px' }}>
       <Toolbar />
-      <h1 className="center">TrucosTruck</h1>
-      <p>Sua melhor aposta no mundo do transporte</p>
-      <Player
-        playsInline
-        poster="/assets/poster.png"
-        src="https://media.w3.org/2010/05/sintel/trailer_hd.mp4"
-      />
-    </div>
-  );
+        <Routes>
+          <Route index element={<Index/>} />
+        </Routes>
+        <Footer />
+      </div>
+  </div>
+  )
 }
+
+export default App
