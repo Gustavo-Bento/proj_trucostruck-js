@@ -13,8 +13,10 @@ function Index() {
             </header>
             
             <About />
+            <div className="w3-display-container w3-content w3-wide" style={{ maxWidth: '1600px', minWidth: '500px' }} id="product">
             <Products />
-            <Video /> 
+            </div>
+            <Video />
             <Contact />
         </div>
     )
