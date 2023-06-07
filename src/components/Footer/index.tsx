@@ -1,6 +1,6 @@
 function Footer() {
     return (
-        <div className="w3-buttom w3-bar">
+        <div className="w3-buttom w3-bar w3-container">
             <footer className="w3-center w3-black w3-padding-16 ">
                 <div className=" w3-light">
                     <h3 className='w3-center' style={{ fontSize: 12 }}>Trucos Truck - A primeira vale um caminhão</h3>

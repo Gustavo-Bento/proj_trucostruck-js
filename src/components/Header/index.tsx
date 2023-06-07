@@ -3,7 +3,7 @@ import './index.css'
 
 function Header() {
     return (
-        <div>
+        <div className='w3-container'>
             <div className='parallax w3-display-container'></div>
             <div className="w3-display-right w3-margin-top w3-center">
                 <h2 className="w3-xxlarge w3-text-white w3-content">
